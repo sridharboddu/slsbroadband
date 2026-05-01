@@ -27,26 +27,33 @@ export const translations = {
       // Plans
       plans: {
         title: "Choose Your Plan",
-        subtitle: "All plans include free installation, router & 24/7 support",
+        subtitle: "All plans include paid installation, router & 24/7 support",
         popular: "Most Popular",
         per_month: "/month",
         mbps: "Mbps",
         gbps: "Gbps",
         download: "Download Speed",
         features: {
-          router: "Free WiFi Router",
-          install: "Free Installation",
+          router: "Paid WiFi Router",
+          install: "Installation Charges Applicable",
           support: "24/7 Support",
-          tv: "Free Cable TV",
+          tv: "Cable TV",
           static: "Static IP",
           ott: "OTT Bundle",
         },
         get_started: "Get Started",
+        // 
         items: {
-          basic: { name: "Basic", speed: "50", price: "499", features: ["router", "install", "support"] },
-          standard: { name: "Standard", speed: "200", price: "799", features: ["router", "install", "support", "tv"] },
-          pro: { name: "Pro", speed: "500", price: "1,299", features: ["router", "install", "support", "tv", "static"] },
-          giga: { name: "Giga", speed: "1000", price: "1,999", features: ["router", "install", "support", "tv", "static", "ott"] },
+          p15: { name: "WFN_SUPRIM-15", speed: "15", price: "177", features: ["router", "install", "support"] },
+          p30: { name: "WFN_SUPRIM-30", speed: "30", price: "295", features: ["router", "install", "support"] },
+          p40: { name: "WFN_40", speed: "40", price: "354", features: ["router", "install", "support"] },
+          p50: { name: "WFN_50", speed: "50", price: "502", features: ["router", "install", "support"] },
+          p80: { name: "WFN_80", speed: "80", price: "590", features: ["router", "install", "support"] },
+          p100:{ name: "WFN_100", speed: "100", price: "708", features: ["router", "install", "support", "tv"] },
+          p150:{ name: "WFN_150", speed: "150", price: "944", features: ["router", "install", "support", "tv"] },
+          p200:{ name: "WFN_200", speed: "200", price: "1239", features: ["router", "install", "support", "tv"] },
+          p300:{ name: "WFN_300", speed: "300", price: "1534", features: ["router", "install", "support", "tv", "static"] },
+          p500:{ name: "WFN_500", speed: "500", price: "1770", features: ["router", "install", "support", "tv", "static"] },
         },
       },
       // Support
@@ -82,9 +89,9 @@ export const translations = {
       },
       // Chatbot
       chatbot: {
-        title: "SwiftNet Assistant",
+        title: "SLSBroadBand Assistant",
         online: "Online — Usually replies instantly",
-        greeting: "Hi! 👋 I'm your SwiftNet assistant. I can help with internet issues, plans, billing, and more. How can I help you today?",
+        greeting: "Hi! 👋 I'm your SLSBroadBand assistant. I can help with internet issues, plans, billing, and more. How can I help you today?",
         placeholder: "Type your message...",
         quick: {
           slow: "Internet is slow",
@@ -97,9 +104,9 @@ export const translations = {
       },
       // Footer
       footer: {
-        tagline: "Connecting Telangana, one home at a time.",
+        tagline: "Connecting SLSBroadBand, one home at a time.",
         links: "Quick Links",
-        legal: "© 2025 SwiftNet. All rights reserved.",
+        legal: "© 2026 SLSBroadBand. All rights reserved.",
       },
       // Theme
       theme: {
@@ -132,27 +139,39 @@ export const translations = {
       },
       plans: {
         title: "మీ ప్లాన్ ఎంచుకోండి",
-        subtitle: "అన్ని ప్లాన్లలో ఉచిత ఇన్‌స్టాలేషన్, రూటర్ & 24/7 సపోర్ట్",
+        subtitle: "అన్ని ప్లాన్లలో paid ఇన్‌స్టాలేషన్, రూటర్ & 24/7 సపోర్ట్",
         popular: "అత్యంత పాపులర్",
         per_month: "/నెల",
         mbps: "Mbps",
         gbps: "Gbps",
         download: "డౌన్‌లోడ్ వేగం",
         features: {
-          router: "ఉచిత WiFi రూటర్",
-          install: "ఉచిత ఇన్‌స్టాలేషన్",
+          router: "Paid WiFi రూటర్",
+          install: "Paid ఇన్‌స్టాలేషన్",
           support: "24/7 మద్దతు",
-          tv: "ఉచిత కేబుల్ TV",
+          tv: " కేబుల్ TV",
           static: "స్టాటిక్ IP",
           ott: "OTT బండిల్",
         },
         get_started: "ప్రారంభించండి",
+        // items: {
+        //   basic: { name: "బేసిక్", speed: "50", price: "499", features: ["router", "install", "support"] },
+        //   standard: { name: "స్టాండర్డ్", speed: "200", price: "799", features: ["router", "install", "support", "tv"] },
+        //   pro: { name: "ప్రో", speed: "500", price: "1,299", features: ["router", "install", "support", "tv", "static"] },
+        //   giga: { name: "గిగా", speed: "1000", price: "1,999", features: ["router", "install", "support", "tv", "static", "ott"] },
+        // },
         items: {
-          basic: { name: "బేసిక్", speed: "50", price: "499", features: ["router", "install", "support"] },
-          standard: { name: "స్టాండర్డ్", speed: "200", price: "799", features: ["router", "install", "support", "tv"] },
-          pro: { name: "ప్రో", speed: "500", price: "1,299", features: ["router", "install", "support", "tv", "static"] },
-          giga: { name: "గిగా", speed: "1000", price: "1,999", features: ["router", "install", "support", "tv", "static", "ott"] },
-        },
+          p15: { name: "WFN_SUPRIM-15", speed: "15", price: "177", features: ["router", "install", "support"] },
+          p30: { name: "WFN_SUPRIM-30", speed: "30", price: "295", features: ["router", "install", "support"] },
+          p40: { name: "WFN_40", speed: "40", price: "354", features: ["router", "install", "support"] },
+          p50: { name: "WFN_50", speed: "50", price: "502", features: ["router", "install", "support"] },
+          p80: { name: "WFN_80", speed: "80", price: "590", features: ["router", "install", "support"] },
+          p100:{ name: "WFN_100", speed: "100", price: "708", features: ["router", "install", "support", "tv"] },
+          p150:{ name: "WFN_150", speed: "150", price: "944", features: ["router", "install", "support", "tv"] },
+          p200:{ name: "WFN_200", speed: "200", price: "1239", features: ["router", "install", "support", "tv"] },
+          p300:{ name: "WFN_300", speed: "300", price: "1534", features: ["router", "install", "support", "tv", "static"] },
+          p500:{ name: "WFN_500", speed: "500", price: "1770", features: ["router", "install", "support", "tv", "static"] },
+        }
       },
       support: {
         title: "సమస్య నివేదించండి",
@@ -198,9 +217,9 @@ export const translations = {
         typing: "టైప్ చేస్తున్నారు...",
       },
       footer: {
-        tagline: "తెలంగాణను ఇంట్లో ఇంట్లో అనుసంధానిస్తున్నాం.",
+        tagline: "SLSBroadBand ఇంట్లో అనుసంధానిస్తున్నాం.",
         links: "త్వరిత లింక్లు",
-        legal: "© 2025 SwiftNet. అన్ని హక్కులు రిజర్వ్ చేయబడ్డాయి.",
+        legal: "© 2025 SLSBroadBand. అన్ని హక్కులు రిజర్వ్ చేయబడ్డాయి.",
       },
       theme: {
         dark: "డార్క్",
@@ -247,12 +266,24 @@ export const translations = {
           ott: "OTT बंडल",
         },
         get_started: "शुरू करें",
+        // items: {
+        //   basic: { name: "बेसिक", speed: "50", price: "499", features: ["router", "install", "support"] },
+        //   standard: { name: "स्टैंडर्ड", speed: "200", price: "799", features: ["router", "install", "support", "tv"] },
+        //   pro: { name: "प्रो", speed: "500", price: "1,299", features: ["router", "install", "support", "tv", "static"] },
+        //   giga: { name: "गीगा", speed: "1000", price: "1,999", features: ["router", "install", "support", "tv", "static", "ott"] },
+        // },
         items: {
-          basic: { name: "बेसिक", speed: "50", price: "499", features: ["router", "install", "support"] },
-          standard: { name: "स्टैंडर्ड", speed: "200", price: "799", features: ["router", "install", "support", "tv"] },
-          pro: { name: "प्रो", speed: "500", price: "1,299", features: ["router", "install", "support", "tv", "static"] },
-          giga: { name: "गीगा", speed: "1000", price: "1,999", features: ["router", "install", "support", "tv", "static", "ott"] },
-        },
+          p15: { name: "WFN_SUPRIM-15", speed: "15", price: "177", features: ["router", "install", "support"] },
+          p30: { name: "WFN_SUPRIM-30", speed: "30", price: "295", features: ["router", "install", "support"] },
+          p40: { name: "WFN_40", speed: "40", price: "354", features: ["router", "install", "support"] },
+          p50: { name: "WFN_50", speed: "50", price: "502", features: ["router", "install", "support"] },
+          p80: { name: "WFN_80", speed: "80", price: "590", features: ["router", "install", "support"] },
+          p100:{ name: "WFN_100", speed: "100", price: "708", features: ["router", "install", "support", "tv"] },
+          p150:{ name: "WFN_150", speed: "150", price: "944", features: ["router", "install", "support", "tv"] },
+          p200:{ name: "WFN_200", speed: "200", price: "1239", features: ["router", "install", "support", "tv"] },
+          p300:{ name: "WFN_300", speed: "300", price: "1534", features: ["router", "install", "support", "tv", "static"] },
+          p500:{ name: "WFN_500", speed: "500", price: "1770", features: ["router", "install", "support", "tv", "static"] },
+        }
       },
       support: {
         title: "समस्या दर्ज करें",

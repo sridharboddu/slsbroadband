@@ -33,7 +33,7 @@ export default function Footer() {
         <div className="footer__contact-col">
           <div className="footer__col-title">{t("contact.title")}</div>
           <div className="footer__contact-item">📞 9948241631</div>
-          <div className="footer__contact-item">💬 WhatsApp: +91 9948241631</div>
+          <div className="footer__contact-item">💬 WhatsApp: +91 9533316891</div>
           <div className="footer__contact-item">🕐 {t("contact.hours")}</div>
           <div className="footer__contact-item">📍 Pedaputlapudi, Kalidindi</div>
         </div>
